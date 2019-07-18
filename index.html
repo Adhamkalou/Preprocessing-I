@@ -14,6 +14,178 @@
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#">About</a>
+      <a href="#">Portfolio</a>
+      <a href="#">contact</a>
+    </nav>
+  </header>
+
+  <section>
+    <div class="paragraphwphoto">
+      <div class="boxinfo">
+
+        <span class="imageme"><img src="pic01.jpg"/></span>
+        <h1>Adham Kalou - Web Dev</h1>
+        <p>My first love is technology. declined 3 times <span>&#9786;</span> </p>
+
+      </div>
+
+      <div class="moreinfo">
+        <p>I have time to work on side projects. If your intrested, let me know on this <a href="portfolio-website/index.html">website.</a></p>
+      </div>
+      <button class="buttonTeam">Lets Team Up</button>
+    </div>
+  </section>
+
+  <section>
+
+    <div class="parts">
+
+      <div class="liftpart">
+
+        <h1>Listen Up...</h1>
+        <p>I like working with HTML, CSS, JAVASCRIPT, and setup VPS.</p>
+
+      </div>
+
+      <div class="rightpart">
+
+        
+        
+        <style>
+          table, td, th {
+            border: 1px solid black;
+          }
+          
+          table {
+            border-collapse: collapse;
+            width: 20rem;
+          }
+          
+          th {
+            height: 2.5rem;
+          }
+          </style>
+        
+
+    <table>
+        <tr>
+            <th>Stuff Im planing to finish:</th>
+            <th>When</th>
+        </tr>
+
+      <tr>
+        <th>Web Development</th>
+        <th><span class="timer1"></span></th>
+      </tr>
+      <tr>
+        <td>finsh my buisness degree</td>
+        <th><span class="timer2"></span></th>
+      </tr>
+      <tr>
+       <td>work on building my coding in cryptograpy</td>
+       <th><span class="timer3"></span></th>
+      </tr>
+      <tr>
+        <td>start getting familier with building on blockchain technology</td>
+        <th><span class="timer4"></span></th>
+      </tr>
+      <tr>
+        <td>Mannege A Small Company</td>
+        <th><span class="timer5"></span></th>
+      </tr>
+      <tr>
+        <td>Have oliver to get kids puppies <a href="http://www.sherv.net/"><img alt="Cute dog" width=40 height=38 src="http://www.sherv.net/cm/emoticons/dogs/cute-dog-smiley-emoticon.gif"></a> </td>
+        <th>When Mr Oliver listens</th>
+    </table>
+        
+        
+        
+        
+        
+        
+        
+      </div>
+    </div>
+
+  </section>
+
 </body>
 </html>
+
+
+<script>
+    {
+      function timeToGraduate(){
+      const t = Date.parse(new Date('May 1 2020')) - Date.parse(new Date());
+      const seconds = Math.floor( (t/1000) % 60 );
+      const minutes = Math.floor( (t/1000/60) % 60 );
+      const hours = Math.floor( (t/(1000*60*60)) % 24 );
+      const days = Math.floor( t/(1000*60*60*24) );
+      document.querySelector('span.timer1').innerHTML =  `${days}:${hours}:${ minutes }:${ seconds }`;
+    }
+      setInterval(timeToGraduate, 500)
+    }
+  </script>
+
+<script>
+    {
+      function timeToGraduate(){
+      const t = Date.parse(new Date('May 1 2022')) - Date.parse(new Date());
+      const seconds = Math.floor( (t/1000) % 60 );
+      const minutes = Math.floor( (t/1000/60) % 60 );
+      const hours = Math.floor( (t/(1000*60*60)) % 24 );
+      const days = Math.floor( t/(1000*60*60*24) );
+      document.querySelector('span.timer2').innerHTML =  `${days}:${hours}:${ minutes }:${ seconds }`;
+    }
+      setInterval(timeToGraduate, 500)
+    }
+  </script>
+
+<script>
+    {
+      function timeToGraduate(){
+      const t = Date.parse(new Date('May 1 2024')) - Date.parse(new Date());
+      const seconds = Math.floor( (t/1000) % 60 );
+      const minutes = Math.floor( (t/1000/60) % 60 );
+      const hours = Math.floor( (t/(1000*60*60)) % 24 );
+      const days = Math.floor( t/(1000*60*60*24) );
+      document.querySelector('span.timer3').innerHTML =  `${days}:${hours}:${ minutes }:${ seconds }`;
+    }
+      setInterval(timeToGraduate, 500)
+    }
+  </script>
+
+
+
+<script>
+    {
+      function timeToGraduate(){
+      const t = Date.parse(new Date('May 1 2027')) - Date.parse(new Date());
+      const seconds = Math.floor( (t/1000) % 60 );
+      const minutes = Math.floor( (t/1000/60) % 60 );
+      const hours = Math.floor( (t/(1000*60*60)) % 24 );
+      const days = Math.floor( t/(1000*60*60*24) );
+      document.querySelector('span.timer4').innerHTML =  `${days}:${hours}:${ minutes }:${ seconds }`;
+    }
+      setInterval(timeToGraduate, 500)
+    }
+  </script>
+
+<script>
+    {
+      function timeToGraduate(){
+      const t = Date.parse(new Date('May 1 2030')) - Date.parse(new Date());
+      const seconds = Math.floor( (t/1000) % 60 );
+      const minutes = Math.floor( (t/1000/60) % 60 );
+      const hours = Math.floor( (t/(1000*60*60)) % 24 );
+      const days = Math.floor( t/(1000*60*60*24) );
+      document.querySelector('span.timer5').innerHTML =  `${days}:${hours}:${ minutes }:${ seconds }`;
+    }
+      setInterval(timeToGraduate, 500)
+    }
+  </script>
+
